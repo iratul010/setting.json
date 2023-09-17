@@ -1,0 +1,117 @@
+{
+  // "editor.codeActionsOnSave": {
+
+  //   "source.fixAll.eslint": true
+  // },
+
+  "show_errors_inline": true,
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 100,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": true,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.mouseWheelZoom": true,
+
+  "editor.minimap.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.ts"
+  ],
+
+  "json.schemas": [],
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnSave": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "liveSassCompile.settings.autoprefix": [],
+  "window.zoomLevel": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["entity.other.attribute-name.js.jsx"],
+        "settings": {
+          "foreground": "#3c668a"
+        }
+      },
+      {
+        "scope": ["function.js.jsx"],
+        "settings": {
+          "foreground": "#638259"
+        }
+      },
+
+      {
+        "scope": ["entity.name.tag.js.jsx"],
+        "settings": {
+          "foreground": "#bd5e11"
+        }
+      },
+      {
+        "scope": ["entity.name.function"],
+        "settings": {
+          "foreground": "#99b888"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name.class.css"],
+        "settings": {
+          "foreground": "#62d978"
+        }
+      },
+      {
+        "scope": ["variable.other.readwrite.js.jsx"],
+        "settings": {
+          "foreground": "#d5dbd6"
+        }
+      }
+    ]
+  },
+
+  "todohighlight.keywords": [
+    {
+      "text": "VIDEO",
+      "color": "#333",
+      "backgroundColor": "#3498db"
+    },
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "FIXME",
+      "color": "#333",
+      "backgroundColor": "#e66e22"
+    },
+    {
+      "text": "TODO",
+      "color": "#333",
+      "backgroundColor": "#2ecc71"
+    },
+    {
+      "text": "LEC",
+      "color": "#333",
+      "backgroundColor": "#f1c40f"
+    }
+  ],
+  "prettier.arrowParens": "avoid",
+
+  // Add your additional settings here
+  "yourAdditionalSetting": "yourValue",
+  "anotherSetting": "anotherValue",
+  "editor.codeActionsOnSave": {}
+}
